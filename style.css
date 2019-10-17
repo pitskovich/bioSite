@@ -1,0 +1,296 @@
+body {width: 1000px;
+      margin: 0 auto;
+      background-color: rgba(200,200,200,0.5);
+}
+
+header {background-color: rgba(0,51,102,1.0);
+        font-family: 'Chivo', Verdana, Arial, sans-serif;
+        font-weight: 400;
+        margin: 10px;
+        text-decoration-color: rgba(255,255,255,1.0);
+        text-align: center;
+}
+
+#links1 {font-family: 'Chivo', Verdana, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: none;
+        text-align: center;
+        text-decoration-color: white;
+        word-spacing: 4em;
+        padding: 10px;
+}
+
+a:link {text-decoration: none;
+        color: white;
+}
+
+a:visited {text-decoration: none;
+         color: lightyellow;
+}
+
+a:hover {text-decoration: none;
+         color: rgba(153,0,0,1.0);
+}
+
+hr {border-top: 2px solid rgba(102,51,0,1.0)
+}
+
+h1 {font-family: 'Acme',Verdana, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: rgba(255,255,255,1.0);
+    font-style: normal;
+    line-height: 1.4em;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {font-family: 'Chivo', Verdana, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgba(153,0,0,1.0);
+    font-style: normal;
+    line-height: 1.0em;
+    text-align: right;
+}
+
+.first {width: 1000px;
+        height: 535px;
+}
+
+.about {font-family: 'Chivo', Verdana, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        font-style: normal;
+        color: rgba(0,0,0,1.0);
+        line-height: 1.4em;
+        text-align: left;
+        padding: 20px;
+        width: 600px;
+        float: right;
+}
+
+figure {display: block;
+        width: 290px;
+        height: 72px;
+        margin: 0px;
+        padding: 6px;
+}
+
+img.outside {float: left;
+             margin-left: 36px;
+             margin-top: 30px;
+             width: 288px;
+}
+
+img.inside {float: left;
+            margin-left: 36px;
+            margin-top: 30px;
+            width: 288px;
+}
+
+img.airplane {float: left;
+              margin-left: 36px;
+              margin-top: 30px;
+              width: 288px;
+}
+
+/* Beginning of Section 2 */
+.second {width: 1000px;
+        height: 750px;
+}
+/* Paragraph Text */
+.frames {font-family: 'Chivo', Verdana, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        font-style: normal;
+        color: rgba(0,0,0,1.0);
+        line-height: 1.4em;
+        text-align: left;
+        padding: 20px;
+        width: 500px;
+        float: left;
+}
+/*figure blocks didn't work*/
+.firstpic {display: block;
+           width: 288px;
+           height: 216px;
+           margin: 0px;
+           float: right;
+}
+/* figure blocks didn't work*/
+.secondpic {display: block;
+            width: 288px;
+            height: 216px;
+            margin: 0px;
+            float: right;
+}
+
+.thirdpic {display: block;
+            width: 288px;
+            height: 162px;
+            margin: 0px;
+            float: right;
+            clear: both;
+}
+
+img.field {margin-right: 36px;
+           margin-top: 30px;
+           width: 288px;
+           padding: 6px;
+           float: right;
+}
+
+img.wood {margin-right: 36px;
+          margin-top: 30px;
+          width: 288px;
+          padding: 6px;
+          float: right;
+}
+
+img.usa {margin-right: 36px;
+         margin-top: 30px;
+         width: 288px;
+         padding: 6px;
+         float: right;
+}
+
+/* Beginning of Section 3 */
+.third {width: 1000px;
+        height: 565px;
+}
+
+/* Paragraph Text */
+
+.crafts {font-family: 'Chivo', Verdana, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        font-style: normal;
+        color: rgba(0,0,0,1.0);
+        line-height: 1.4em;
+        text-align: left;
+        padding: 20px;
+        width: 600px;
+        float: right;
+}
+
+/* Crafted Pictures */
+
+img.guitar {margin-left: 36px;
+            margin-top: 30px;
+            width: 288px;
+            padding: 6px;
+            float: left;
+}
+
+
+img.bed {margin-left: 36px;
+         margin-top: 30px;
+         width: 288px;
+         float: left;
+}
+
+
+img.dresser {margin-left: 36px;
+             margin-top: 30px;
+             width: 288px;
+             float: left;
+}
+
+/* More Project Examples */
+
+.column {width: 250px;
+         padding: 20px;
+         margin-left: 20px;
+         margin-right: 20px;
+         float: left;
+}
+
+#container {display: flex;
+            justify-content: space-between;
+}
+
+img.firstguitar {width: 288px;
+                 height: 181px;
+                 margin-right: 36px;
+}
+
+img.jefferson {width: 229px;
+               height: 288px;
+               margin-right: 36px;
+}
+
+img.artwork {width: 229px;
+             height: 288px;
+             margin-left: 10px;
+}
+
+.firstguitar {height: 190px;
+              width: 288px;
+}
+
+.jefferson {height: 297px;
+            width: 229px;
+}
+
+.artwork {height: 297px;
+          width: 201px;
+}
+
+figcaption {font-family: 'Chivo', Verdana, Arial, sans-serif;
+            font-weight: 400;
+            font-size: 12px;
+            font-style: normal;
+            margin: 5px;
+            color: rgba(0,0,0,1.0);
+            padding: 5px;
+}
+
+.information {font-family: 'Chivo', Verdana, Arial, sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              font-style: normal;
+              line-height: 1.4em;
+              color: rgba(0,0,0,1.0);
+              text-align: center;
+              padding: 20px;
+              width: 600px;
+              margin-left: 175px;
+}
+
+.woodworking:link {text-decoration: none;
+                   color: rgba(102,51,0,1.0);
+}
+
+.woodworking:visited {text-decoration: none;
+                      color: rgba(0,51,102,1.0);
+}
+
+.woodworking:hover {text-decoration: none;
+                    color: rgba(153,0,0,1.0);
+}
+
+.design {font-family: 'Chivo', Verdana, Arial, sans-serif;
+         font-size: 12px;
+         font-weight: 400;
+         font-style: italic;
+         color: white;
+         text-align: right;
+}
+
+#links2 {font-family: 'Chivo', Verdana, Arial, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: none;
+        text-align: center;
+        text-decoration-color: white;
+        word-spacing: 4em;
+        padding: 10px;
+}
+
+footer {background-color: rgba(0,51,102,1.0);
+        height: 50px;
+        margin: 10px;
+        padding: 20px;
+}
