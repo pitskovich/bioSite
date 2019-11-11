@@ -1,0 +1,40 @@
+
+
+h1 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+figure {
+	display: inline-block;
+	text-align: right;
+	font-style: italic;
+	float: right;
+	height: 225px;}
+
+figure img {
+	width:200px;
+	height:200px;
+	margin: 0px;
+	float: right;}
+	
+figcaption {
+	text-align: center;}
+
+p {
+	display: inline-block;
+	width: 75%;
+	padding: 6px;
+	margin-left: 24px;}
+
+body {
+	font-size: 18px;
+	background-image: url("StickerCollage.jpg");
+	background-repeat: no repeat;
+	background-attachment: fixed;
+}
+
+article {
+	border: 2px solid yellow;
+	height: 250px;
+} 
