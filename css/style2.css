@@ -1,0 +1,24 @@
+
+body{
+	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	background-color: rgba(192,166,114,0.4);}
+img {
+	width: 100px;
+	height: 90px;
+	border: 4px dashed rgb(255,255,77);}
+
+table {
+	background-color: rgba(192,166,114);
+	border: 4px dashed rgba(255,255,77);
+	width: 80%;}
+	
+th {
+	font-size: 4em;
+	font-family: 'Condiment', cursive;
+	padding-top: 30px;
+	color: rgba(255,255,77);}
+	
+td {
+	padding-top: 20px;}
